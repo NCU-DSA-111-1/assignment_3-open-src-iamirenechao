@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/irenechao/hw3/arcd/arcd/arcd.h
+/home/irenechao/HW3/arcd/arcd/arcd.h
 
-/home/irenechao/hw3/arcd/examples/arcd_stream.c
+/home/irenechao/HW3/arcd/examples/arcd_stream.c
 string.h
 -
 stdio.h
@@ -16,7 +16,7 @@ stdio.h
 unistd.h
 -
 ../arcd/arcd.h
-/home/irenechao/hw3/arcd/arcd/arcd.h
+/home/irenechao/HW3/arcd/arcd/arcd.h
 adaptive_model.h
 -
 time.h

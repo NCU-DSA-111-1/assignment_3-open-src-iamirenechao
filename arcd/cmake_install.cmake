@@ -1,4 +1,4 @@
-# Install script for directory: /home/irenechao/hw3/arcd
+# Install script for directory: /home/irenechao/HW3/arcd
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -41,7 +41,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/arcd/arcd.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/arcd/arcd.cmake"
-         "/home/irenechao/hw3/arcd/CMakeFiles/Export/lib/cmake/arcd/arcd.cmake")
+         "/home/irenechao/HW3/arcd/CMakeFiles/Export/lib/cmake/arcd/arcd.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/arcd/arcd-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -50,21 +50,21 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/arcd" TYPE FILE FILES "/home/irenechao/hw3/arcd/CMakeFiles/Export/lib/cmake/arcd/arcd.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/arcd" TYPE FILE FILES "/home/irenechao/HW3/arcd/CMakeFiles/Export/lib/cmake/arcd/arcd.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/arcd" TYPE FILE FILES "/home/irenechao/hw3/arcd/CMakeFiles/Export/lib/cmake/arcd/arcd-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/arcd" TYPE FILE FILES "/home/irenechao/HW3/arcd/CMakeFiles/Export/lib/cmake/arcd/arcd-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/arcd" TYPE FILE FILES "/home/irenechao/hw3/arcd/arcd-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/arcd" TYPE FILE FILES "/home/irenechao/HW3/arcd/arcd-config.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/irenechao/hw3/arcd/arcd/cmake_install.cmake")
-  include("/home/irenechao/hw3/arcd/examples/cmake_install.cmake")
-  include("/home/irenechao/hw3/arcd/tests/cmake_install.cmake")
+  include("/home/irenechao/HW3/arcd/arcd/cmake_install.cmake")
+  include("/home/irenechao/HW3/arcd/examples/cmake_install.cmake")
+  include("/home/irenechao/HW3/arcd/tests/cmake_install.cmake")
 
 endif()
 
@@ -76,5 +76,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/irenechao/hw3/arcd/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/irenechao/HW3/arcd/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

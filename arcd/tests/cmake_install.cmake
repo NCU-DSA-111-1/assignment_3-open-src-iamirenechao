@@ -1,4 +1,4 @@
-# Install script for directory: /home/irenechao/hw3/arcd/tests
+# Install script for directory: /home/irenechao/HW3/arcd/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

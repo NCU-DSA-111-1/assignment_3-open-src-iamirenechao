@@ -6,5 +6,5 @@ C_FLAGS =  -std=c99 -Wall -Wextra -Werror -pedantic-errors -O3 -DNDEBUG
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/irenechao/hw3/arcd/arcd -I/home/irenechao/hw3/arcd/examples 
+C_INCLUDES = -I/home/irenechao/HW3/arcd/arcd -I/home/irenechao/HW3/arcd/examples 
 
