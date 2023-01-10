@@ -1,0 +1,4 @@
+/home/irenechao/hw3/arcd/examples/CMakeFiles/rebuild_cache.dir
+/home/irenechao/hw3/arcd/examples/CMakeFiles/edit_cache.dir
+/home/irenechao/hw3/arcd/examples/CMakeFiles/arcd_stream.dir
+/home/irenechao/hw3/arcd/examples/CMakeFiles/adaptive_model.dir

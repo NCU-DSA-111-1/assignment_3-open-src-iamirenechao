@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/irenechao/hw3/arcd/arcd/arcd.h
+
+/home/irenechao/hw3/arcd/examples/adaptive_model.c
+assert.h
+-
+stdlib.h
+-
+adaptive_model.h
+/home/irenechao/hw3/arcd/examples/adaptive_model.h
+
+/home/irenechao/hw3/arcd/examples/adaptive_model.h
+../arcd/arcd.h
+/home/irenechao/hw3/arcd/arcd/arcd.h
+
